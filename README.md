@@ -1,2 +1,2 @@
 # LayD-Vision
- My own interpetation to a new GUI for Waves 'LayD' audio plugin
+ My own interpretation to a new GUI for Waves 'LayD' audio plugin
