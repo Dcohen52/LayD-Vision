@@ -1,0 +1,109 @@
+
+JuceLibraryCode/ReadMe.txt
+JuceLibraryCode/JucePluginDefines.h
+JuceLibraryCode/JuceHeader.h
+JuceLibraryCode/include_juce_gui_extra.mm
+JuceLibraryCode/include_juce_gui_extra.cpp
+JuceLibraryCode/include_juce_gui_basics.mm
+JuceLibraryCode/include_juce_gui_basics.cpp
+JuceLibraryCode/include_juce_graphics.mm
+JuceLibraryCode/include_juce_graphics.cpp
+JuceLibraryCode/include_juce_events.mm
+JuceLibraryCode/include_juce_events.cpp
+JuceLibraryCode/include_juce_data_structures.mm
+JuceLibraryCode/include_juce_data_structures.cpp
+JuceLibraryCode/include_juce_core.mm
+JuceLibraryCode/include_juce_core.cpp
+JuceLibraryCode/include_juce_audio_utils.mm
+JuceLibraryCode/include_juce_audio_utils.cpp
+JuceLibraryCode/include_juce_audio_processors.mm
+JuceLibraryCode/include_juce_audio_processors.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm
+JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_Unity.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.mm
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_4.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_3.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_2.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_1.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS.r
+JuceLibraryCode/include_juce_audio_plugin_client_AUv3.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AU.r
+JuceLibraryCode/include_juce_audio_plugin_client_AAX.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AAX.cpp
+JuceLibraryCode/include_juce_audio_formats.mm
+JuceLibraryCode/include_juce_audio_formats.cpp
+JuceLibraryCode/include_juce_audio_devices.mm
+JuceLibraryCode/include_juce_audio_devices.cpp
+JuceLibraryCode/include_juce_audio_basics.mm
+JuceLibraryCode/include_juce_audio_basics.cpp
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/resources.res
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vision_StandalonePlugin.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vision_StandalonePlugin.log
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vision.pdb
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vision.ilk
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vision.exe.recipe
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vision.exe
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/rc.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/rc.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/rc.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/link.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/LayD Vision_StandalonePlugin.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/LayD Vis.6C82D218.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/include_juce_audio_plugin_client_Standalone.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginProcessor.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginEditor.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vision_SharedCode.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vision_SharedCode.log
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vision.pdb
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vision.lib.recipe
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vision.lib
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vis.3C4884DD.tlog/Lib.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vis.3C4884DD.tlog/Lib-link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vis.3C4884DD.tlog/Lib-link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vis.3C4884DD.tlog/LayD Vision_SharedCode.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vis.3C4884DD.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vis.3C4884DD.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/LayD Vis.3C4884DD.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_gui_extra.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_gui_basics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_graphics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_events.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_data_structures.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_core.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_utils.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_processors.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_plugin_client_utils.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_formats.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_devices.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_basics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/BinaryData.obj
+Builds/VisualStudio2019/resources.rc
+Builds/VisualStudio2019/LayD Vision_VST3.vcxproj.filters
+Builds/VisualStudio2019/LayD Vision_VST3.vcxproj
+Builds/VisualStudio2019/LayD Vision_StandalonePlugin.vcxproj.user
+Builds/VisualStudio2019/LayD Vision_StandalonePlugin.vcxproj.filters
+Builds/VisualStudio2019/LayD Vision_StandalonePlugin.vcxproj
+Builds/VisualStudio2019/LayD Vision_SharedCode.vcxproj.filters
+Builds/VisualStudio2019/LayD Vision_SharedCode.vcxproj
+Builds/VisualStudio2019/LayD Vision.sln
+Builds/VisualStudio2019/.vs/LayD Vision/v16/Solution.VC.db
+Builds/VisualStudio2019/.vs/LayD Vision/v16/ipch/AutoPCH/3ef8dd0a0ce93d2a/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/LayD Vision/v16/Browse.VC.db
+Builds/VisualStudio2019/.vs/LayD Vision/v16/.suo
+Builds/VisualStudio2019/.vs/LayD Vision/v16/Browse.VC.db-shm
+Builds/VisualStudio2019/.vs/LayD Vision/v16/Browse.VC.db-wal
+Builds/VisualStudio2019/.vs/LayD Vision/v16/Browse.VC.opendb
+Builds/VisualStudio2019/.vs/LayD Vision/v16/ipch/AutoPCH/670b6ce24016d00e/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/LayD Vision/v16/Solution.VC.db-shm
+Builds/VisualStudio2019/.vs/LayD Vision/v16/Solution.VC.db-wal

@@ -27,7 +27,7 @@ LayDVisionAudioProcessorEditor::~LayDVisionAudioProcessorEditor()
 //==============================================================================
 void LayDVisionAudioProcessorEditor::paint (juce::Graphics& g)
 {
-    juce::Image background = juce::ImageCache::getFromMemory(BinaryData::background_png, BinaryData::background_pngSize);
+    juce::Image background = juce::ImageCache::getFromMemory(BinaryData::backgrounds_png, BinaryData::backgrounds_pngSize);
     g.drawImageAt(background, 0, 0);
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     //g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));

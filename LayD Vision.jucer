@@ -4,7 +4,8 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="Bux9wU" name="LayD Vision">
     <GROUP id="{649A568C-375B-887C-CDA9-3CCC598458A3}" name="Assets">
-      <FILE id="YbNUi6" name="background.png" compile="0" resource="1" file="../icons/LayD/background.png"/>
+      <FILE id="dTN6GG" name="background-s.png" compile="0" resource="1"
+            file="../CPP JUCE/icons/LayD/background-s.png"/>
     </GROUP>
     <GROUP id="{5EE4FEDC-505C-48AF-90AC-E3BCA18476C9}" name="Source">
       <FILE id="gXwGEi" name="PluginProcessor.cpp" compile="1" resource="0"
