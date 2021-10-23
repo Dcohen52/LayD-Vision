@@ -4,6 +4,12 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="Bux9wU" name="LayD Vision">
     <GROUP id="{649A568C-375B-887C-CDA9-3CCC598458A3}" name="Assets">
+      <FILE id="KMEEEC" name="reverse.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/reverse.png"/>
+      <FILE id="TAFkC6" name="reversedown.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/reversedown.png"/>
+      <FILE id="KwbP62" name="reverseover.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/reverseover.png"/>
+      <FILE id="Nepzm3" name="sync.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/sync.png"/>
+      <FILE id="O13B4e" name="syncdown.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/syncdown.png"/>
+      <FILE id="UY2spo" name="syncover.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/syncover.png"/>
       <FILE id="ddFCot" name="phase.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/phase.png"/>
       <FILE id="nayEv8" name="phasedown.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/phasedown.png"/>
       <FILE id="EminZ5" name="phaseover.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/phaseover.png"/>

@@ -8,6 +8,24 @@
 
 namespace BinaryData
 {
+    extern const char*   reverse_png;
+    const int            reverse_pngSize = 2682;
+
+    extern const char*   reversedown_png;
+    const int            reversedown_pngSize = 4774;
+
+    extern const char*   reverseover_png;
+    const int            reverseover_pngSize = 2554;
+
+    extern const char*   sync_png;
+    const int            sync_pngSize = 999;
+
+    extern const char*   syncdown_png;
+    const int            syncdown_pngSize = 2810;
+
+    extern const char*   syncover_png;
+    const int            syncover_pngSize = 1094;
+
     extern const char*   phase_png;
     const int            phase_pngSize = 1872;
 
@@ -21,7 +39,7 @@ namespace BinaryData
     const int            backgrounds_pngSize = 533387;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 4;
+    const int namedResourceListSize = 10;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

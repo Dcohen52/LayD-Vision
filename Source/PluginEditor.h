@@ -29,6 +29,8 @@ private:
     // access the processor object that created it.
     LayDVisionAudioProcessor& audioProcessor;
     juce::ImageButton phaseButton;
+    juce::ImageButton syncButton;
+    juce::ImageButton reverseButton;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LayDVisionAudioProcessorEditor)
 };
