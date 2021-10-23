@@ -1,2 +1,4 @@
 # LayD-Vision
- My own interpetation/vision to a new GUI for Waves 'LayD'
+ My own interpretation to a new GUI for Waves 'LayD' audio plugin
+
+![LayD Vision Mockup](https://gcdn.pbrd.co/images/mklypSEOQq9a.png?o=1)
