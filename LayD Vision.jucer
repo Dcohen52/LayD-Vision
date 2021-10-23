@@ -4,6 +4,9 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="Bux9wU" name="LayD Vision">
     <GROUP id="{649A568C-375B-887C-CDA9-3CCC598458A3}" name="Assets">
+      <FILE id="ddFCot" name="phase.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/phase.png"/>
+      <FILE id="nayEv8" name="phasedown.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/phasedown.png"/>
+      <FILE id="EminZ5" name="phaseover.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/phaseover.png"/>
       <FILE id="dTN6GG" name="background-s.png" compile="0" resource="1"
             file="../CPP JUCE/icons/LayD/background-s.png"/>
     </GROUP>
