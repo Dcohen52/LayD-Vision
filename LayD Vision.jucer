@@ -4,6 +4,9 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="Bux9wU" name="LayD Vision">
     <GROUP id="{649A568C-375B-887C-CDA9-3CCC598458A3}" name="Assets">
+      <FILE id="g5Hmtg" name="backgroundlabels.png" compile="0" resource="1"
+            file="../CPP JUCE/icons/LayD/backgroundlabels.png"/>
+      <FILE id="XDXCZY" name="knob.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/knob.png"/>
       <FILE id="KMEEEC" name="reverse.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/reverse.png"/>
       <FILE id="TAFkC6" name="reversedown.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/reversedown.png"/>
       <FILE id="KwbP62" name="reverseover.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/reverseover.png"/>
@@ -17,6 +20,9 @@
             file="../CPP JUCE/icons/LayD/background-s.png"/>
     </GROUP>
     <GROUP id="{5EE4FEDC-505C-48AF-90AC-E3BCA18476C9}" name="Source">
+      <FILE id="I1JW5C" name="myLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/myLookAndFeel.cpp"/>
+      <FILE id="sMW16V" name="myLookAndFeel.h" compile="0" resource="0" file="Source/myLookAndFeel.h"/>
       <FILE id="gXwGEi" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="ageYq7" name="PluginProcessor.h" compile="0" resource="0"

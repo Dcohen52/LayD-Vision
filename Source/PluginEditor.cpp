@@ -19,6 +19,7 @@ LayDVisionAudioProcessorEditor::LayDVisionAudioProcessorEditor (LayDVisionAudioP
     // editor's size to whatever you need it to be.
     setSize (600, 800);
 
+    // Buttons
     juce::Image normalButton = juce::ImageCache::getFromMemory(BinaryData::phase_png, BinaryData::phase_pngSize);
     juce::Image overButton = juce::ImageCache::getFromMemory(BinaryData::phaseover_png, BinaryData::phaseover_pngSize);
     juce::Image downButton = juce::ImageCache::getFromMemory(BinaryData::phasedown_png, BinaryData::phasedown_pngSize);
@@ -36,6 +37,28 @@ LayDVisionAudioProcessorEditor::LayDVisionAudioProcessorEditor (LayDVisionAudioP
     juce::Image downButton3 = juce::ImageCache::getFromMemory(BinaryData::reversedown_png, BinaryData::reversedown_pngSize);
     reverseButton.setImages(false, false, true, normalButton3, 1.0f, {}, overButton3, 1.0f, {}, downButton3, 1.0f, {});
     addAndMakeVisible(reverseButton);
+
+    // Dials
+    
+    time.setLookAndFeel(&myLookAndFeelV1);
+    time.setSliderStyle(juce::Slider::RotaryVerticalDrag);
+    time.setTextBoxStyle(juce::Slider::NoTextBox, false, 60, 20);
+    addAndMakeVisible(time);
+
+    feedback.setLookAndFeel(&myLookAndFeelV1);
+    feedback.setSliderStyle(juce::Slider::RotaryVerticalDrag);
+    feedback.setTextBoxStyle(juce::Slider::NoTextBox, false, 60, 20);
+    addAndMakeVisible(feedback);
+
+    pitch.setLookAndFeel(&myLookAndFeelV2);
+    pitch.setSliderStyle(juce::Slider::RotaryVerticalDrag);
+    pitch.setTextBoxStyle(juce::Slider::NoTextBox, false, 60, 20);
+    addAndMakeVisible(pitch);
+
+    mix.setLookAndFeel(&myLookAndFeelV2);
+    mix.setSliderStyle(juce::Slider::RotaryVerticalDrag);
+    mix.setTextBoxStyle(juce::Slider::NoTextBox, false, 60, 20);
+    addAndMakeVisible(mix);
 }
 
 LayDVisionAudioProcessorEditor::~LayDVisionAudioProcessorEditor()
@@ -45,7 +68,7 @@ LayDVisionAudioProcessorEditor::~LayDVisionAudioProcessorEditor()
 //==============================================================================
 void LayDVisionAudioProcessorEditor::paint (juce::Graphics& g)
 {
-    juce::Image background = juce::ImageCache::getFromMemory(BinaryData::backgrounds_png, BinaryData::backgrounds_pngSize);
+    juce::Image background = juce::ImageCache::getFromMemory(BinaryData::backgroundlabels_png, BinaryData::backgroundlabels_pngSize);
     g.drawImageAt(background, 0, 0);
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     //g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
@@ -62,6 +85,8 @@ void LayDVisionAudioProcessorEditor::resized()
     phaseButton.setBounds(getWidth() / 2 - 31, getHeight() / 2 - 110, 78, 35);
     syncButton.setBounds(getWidth() / 2 - 31, getHeight() / 2 - 15, 78, 35);
     reverseButton.setBounds(getWidth() / 2 - 40, getHeight() - 251, 95, 45);
-    // This is generally where you'll want to lay out the positions of any
-    // subcomponents in your editor..
+    time.setBounds(getWidth() / 2 - 246, getHeight() / 2 - 112, 166, 166);
+    feedback.setBounds(getWidth() - 215, getHeight() / 2 - 112, 166, 166);
+    pitch.setBounds(getWidth() / 2 - 205, getHeight() - 170, 87, 87);
+    mix.setBounds(getWidth() - 173, getHeight() - 170, 87, 87);
 }

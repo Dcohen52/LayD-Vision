@@ -10,6 +10,7 @@
 
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
+#include "myLookAndFeel.h"
 
 //==============================================================================
 /**
@@ -25,12 +26,20 @@ public:
     void resized() override;
 
 private:
-    // This reference is provided as a quick way for your editor to
-    // access the processor object that created it.
     LayDVisionAudioProcessor& audioProcessor;
+
+    myLookAndFeelV1 myLookAndFeelV1;
+    myLookAndFeelV2 myLookAndFeelV2;
+    //myLookAndFeelV3 myLookAndFeelV3;
+
     juce::ImageButton phaseButton;
     juce::ImageButton syncButton;
     juce::ImageButton reverseButton;
+
+    juce::Slider time;
+    juce::Slider feedback;
+    juce::Slider pitch;
+    juce::Slider mix;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LayDVisionAudioProcessorEditor)
 };
