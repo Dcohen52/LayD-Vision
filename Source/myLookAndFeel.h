@@ -12,7 +12,7 @@
 
 #include <JuceHeader.h>
 
-
+//==============================================================================
 /*
 */
 //class myLookAndFeel  : public juce::Component
@@ -43,7 +43,7 @@ private:
 
 };
 
-
+////==============================================================================
 class myLookAndFeelV2 : public LookAndFeel_V4
 {
 
@@ -57,3 +57,18 @@ private:
     Image img2;
 
 };
+
+////==============================================================================
+//class myLookAndFeelV3 : public LookAndFeel_V4
+//{
+//
+//public:
+//    myLookAndFeelV3();
+//
+//    void drawRotarySlider(Graphics& g, int x, int y, int width, int height, float sliderPos,
+//        float rotaryStartAngle, float rotaryEndAngle, Slider& slider) override;
+//
+//private:
+//    Image img2;
+//
+//};

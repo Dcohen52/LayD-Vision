@@ -12,12 +12,16 @@
 #include "PluginProcessor.h"
 #include "myLookAndFeel.h"
 
+//==============================================================================
+/**
+*/
 class LayDVisionAudioProcessorEditor  : public juce::AudioProcessorEditor
 {
 public:
     LayDVisionAudioProcessorEditor (LayDVisionAudioProcessor&);
     ~LayDVisionAudioProcessorEditor() override;
 
+    //==============================================================================
     void paint (juce::Graphics&) override;
     void resized() override;
 
@@ -26,6 +30,7 @@ private:
 
     myLookAndFeelV1 myLookAndFeelV1;
     myLookAndFeelV2 myLookAndFeelV2;
+    //myLookAndFeelV3 myLookAndFeelV3;
 
     juce::ImageButton phaseButton;
     juce::ImageButton syncButton;
