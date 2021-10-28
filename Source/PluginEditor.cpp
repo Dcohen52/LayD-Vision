@@ -15,8 +15,6 @@
 LayDVisionAudioProcessorEditor::LayDVisionAudioProcessorEditor (LayDVisionAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
-    // Make sure that before the constructor has finished, you've set the
-    // editor's size to whatever you need it to be.
     setSize (600, 800);
 
     // Buttons
@@ -39,7 +37,6 @@ LayDVisionAudioProcessorEditor::LayDVisionAudioProcessorEditor (LayDVisionAudioP
     addAndMakeVisible(reverseButton);
 
     // Dials
-    
     time.setLookAndFeel(&myLookAndFeelV1);
     time.setSliderStyle(juce::Slider::RotaryVerticalDrag);
     time.setTextBoxStyle(juce::Slider::NoTextBox, false, 60, 20);
@@ -70,14 +67,6 @@ void LayDVisionAudioProcessorEditor::paint (juce::Graphics& g)
 {
     juce::Image background = juce::ImageCache::getFromMemory(BinaryData::backgroundlabels_png, BinaryData::backgroundlabels_pngSize);
     g.drawImageAt(background, 0, 0);
-    // (Our component is opaque, so we must completely fill the background with a solid colour)
-    //g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
-
-    //g.setColour (juce::Colours::white);
-    //g.setFont (15.0f);
-    //g.drawFittedText ("Hello World!", getLocalBounds(), juce::Justification::centred, 1);
-
-
 }
 
 void LayDVisionAudioProcessorEditor::resized()
