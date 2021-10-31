@@ -68,6 +68,12 @@ void LayDVisionAudioProcessorEditor::paint (juce::Graphics& g)
 {
     juce::Image background = juce::ImageCache::getFromMemory(BinaryData::backgroundlabels_png, BinaryData::backgroundlabels_pngSize);
     g.drawImageAt(background, 0, 0);
+
+    juce::Image screen = juce::ImageCache::getFromMemory(BinaryData::screen_png, BinaryData::screen_pngSize);
+    g.drawImageAt(screen, 80, 464);
+
+    juce::Image screen_2 = juce::ImageCache::getFromMemory(BinaryData::screen_png, BinaryData::screen_pngSize);
+    g.drawImageAt(screen_2, getWidth() - 187, 464);
 }
 
 void LayDVisionAudioProcessorEditor::resized()

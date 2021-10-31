@@ -4,6 +4,7 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="Bux9wU" name="LayD Vision">
     <GROUP id="{649A568C-375B-887C-CDA9-3CCC598458A3}" name="Assets">
+      <FILE id="b5WBLF" name="screen.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/screen.png"/>
       <FILE id="g5Hmtg" name="backgroundlabels.png" compile="0" resource="1"
             file="../CPP JUCE/icons/LayD/backgroundlabels.png"/>
       <FILE id="XDXCZY" name="knob.png" compile="0" resource="1" file="../CPP JUCE/icons/LayD/knob.png"/>
