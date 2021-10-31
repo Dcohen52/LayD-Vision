@@ -12,10 +12,7 @@
 #pragma once
 #include <JuceHeader.h>
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 5f128eefc2c581a893beac93187c452bdd9b5cfe
 using namespace juce;
 
 class myLookAndFeelV1 : public LookAndFeel_V4
@@ -30,10 +27,6 @@ private:
     Image img1;
 };
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5f128eefc2c581a893beac93187c452bdd9b5cfe
 class myLookAndFeelV2 : public LookAndFeel_V4
 {
 
@@ -46,7 +39,3 @@ public:
 private:
     Image img2;
 };
-<<<<<<< HEAD
-=======
-
->>>>>>> 5f128eefc2c581a893beac93187c452bdd9b5cfe
